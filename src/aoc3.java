@@ -52,6 +52,7 @@ public class aoc3 {
                      if(j>0 && strTab[i].charAt(j-1)!='.' && !(strTab[i].charAt(j-1) <='9' && strTab[i].charAt(j-1) >='0')){
                         valid = true;
                      }
+                     
                 }else{
                     valid =false;
                 }
